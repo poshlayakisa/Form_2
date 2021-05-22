@@ -1,0 +1,137 @@
+@font-face {
+    font-family: "PN_Light";
+    src: url(../font/ProximaNova-Light.ttf);
+}
+
+@font-face {
+    font-family: "PN_Semibold";
+    src: url(../font/ProximaNova-Semibold.ttf);
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #acacac;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.row {
+    width: 640px;
+    height: 960px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/bg.jpg);
+}
+
+form {
+    background-color: #121317;
+    height: 640px;
+    width: 468px;
+    display: flex;
+    flex-direction: column;
+}
+
+.upper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 38px;
+}
+
+.upper > p {
+    font-family: "PN_Light";
+    font-size: 48px;
+    color: #979696;
+}
+
+.right-logo {
+    display: flex;
+    height: 92px;
+    width: 92px;
+    justify-content: center;
+    align-items: center;
+    background-color: #df4a32;
+}
+
+
+
+.for-input {
+    margin-top: 30px;
+}
+
+.button {
+    margin-top: 30px;
+    display: flex;
+    background-color: #d29d41;
+    height: 80px;
+    width: 400px;
+    font-size: 24px;
+    font-family: "PN_Semibold";
+    color: #6c411b;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    outline-style: none;
+    border-style: none;
+}
+
+.mini-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.for-input input {
+    height: 80px;
+    width: 400px;
+    color: #979696;
+    background-color: #18191e;
+    font-family: "PN_Semibold";
+    outline-style: none;
+    border-style: none;
+    text-indent: 20px;
+    font-size: 24px;
+}
+
+.for-input img {
+    position: absolute;
+    padding-right: 26px;
+}
+
+.for-input {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.downer {
+    display: flex;
+    width: 316px;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.downer a {
+    font-family: "PN_Semibold";
+    font-size: 19px;
+    color: #979696;
+    text-decoration: none;
+}
+
+.downer a:nth-child(2) {
+    color: #d29d41;
+}
